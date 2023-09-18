@@ -47,7 +47,7 @@ const Captcha = () => {
 
     const handleSpeech = (msg: SpeechSynthesisUtterance) => {
         msg.text = captchaText
-        msg.rate = 0.7
+        msg.rate = 0.5
         window.speechSynthesis.speak(msg)
     }
 
